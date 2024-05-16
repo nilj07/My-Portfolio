@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    font-family: poppins;
+    
+    
+}
+.index{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 100px;
+    img{
+        width: 100%;
+        
+        position: absolute;
+    }
+    nav{
+        
+        margin-top: 20px;
+        position: relative;
+        display: flex;
+        height: 70px;
+        width: 80%;
+        border-style: solid;
+        border-width: 1px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-color: white;
+        align-items: center;
+        justify-content: space-around;
+        background-color: transparent;
+        
+        p{
+            color: white;
+            margin-right: 10px;
+            margin-left: 10px;
+            background-color: transparent;
+
+        }
+        button{
+            height: 60px;
+            width: 160px;
+            border-style: none;
+            background-color:#311758;
+            border-radius: 45px;
+            margin-right: -35px;
+            color: white;
+        }
+    }
+}
+.contact-button{
+    font-weight: 400;
+}
+.index > nav > p:hover{
+    border-style: solid;
+    border-top: 2px;
+    border-right: 2px;
+    border-left: 2px;
+    cursor: pointer;
+    border-color: #311758;
+}
+.main{
+    margin-top: 80px;
+    display: flex;
+    position: relative;
+}
+.left-sec{
+    margin-top: 50px;
+    width: 50%;
+    color: rgba(255, 255, 255, 0.683);
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    font-size: 40px;
+    padding-left: 50px;
+    span{
+        font-size: 80px;
+        font-weight: 600;
+        color: white;
+    }
+    #decsription{
+        margin-top: 50px;
+        font-size: 20px;
+        margin-right: 200px;
+        border-style: solid;
+        border-color: white;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+        padding-left: 20px;
+    }
+}
+.right-sec{
+    width: 50%;
+    color: white;
+    
+}
+.second-page{
+    width: 100%;
+    display: flex;
+    margin-top: 120px;
+    img{
+        overflow: hidden;
+        width: 100%;
+        height: 120vh;
+        position: absolute;
+        
+    }
+}
+
+.about{
+    display: flex;
+    img{
+        margin-top: 250px;
+        margin-left: 200px;
+        position: relative;
+        height: 400px;
+        width: auto;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: #ffffff;
+        
+    }
+    p{
+        position: relative;
+        font-size: 60px;
+        font-weight: 600;
+        color: white;
+        margin-top: 250px;
+        margin-left: 100px;
+        margin-top: 400px;
+    }
+
+    #aboutmy{
+        width: 300px;
+        margin-top: 500px;
+        color: white;
+        font-size: 15px;
+        font-weight: 300;
+        border-style: solid;
+        border-color: white;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+        padding-left: 20px;
+        margin-left: -290px;
+    }
+}
+.third-page{
+    img{
+    width: 100%;
+    position: absolute;
+        margin-top: 30px;
+    }
+    p{
+        padding-top: 100px;
+        display: flex;
+        justify-content:center;
+        color: white;
+        position: relative;
+        font-size: 60px;
+        font-weight: 600;
+    }
+}
+.skills{
+    position: relative;
+    display:inline;
+    img{
+        position: inherit;
+        display: wrap;
+        height: 200px;
+        width: auto;
+        margin-left: 50px;
+        margin-left: 150px;
+        border-radius: 100px;
+        border-style: solid;
+        border-color: #120420;
+        margin-top: 50px;
+        border-width: 5px;
+    }
+}
+.skills img:hover {
+    border-color:violet;
+    cursor: pointer;
+}
+
+.fourth-page{
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    P{
+        position: relative;
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 60px;
+        font-weight: 600;
+        padding-top: 50px;
+    }
+    img{
+        width: 100%;
+        position: absolute;
+    }
+    a{
+        position: inherit;
+        color: white;
+        
+        p{
+            font-size: 20px;
+        }
+    }
+}
+.project-card{
+    margin-top: 30px;
+    position: relative;
+    height: 500px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-color: #ffffff;
+    margin-left: 100px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.project-cars{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: scroll;
+    img{
+        margin-top: 20px;
+        position: inherit;
+        width: 480px;
+        display: wrap;
+        margin: 10px;
+    }
+}
+.about-project{
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    flex-direction: column;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    b{
+        color: rgb(255, 255, 255);
+        text-decoration:underline;
+        font-style: oblique;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    p{
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.576);
+    }
+    button{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 300px;
+        border-style: solid;
+        border-color: white;
+        background-color: transparent;
+        p{
+            font-size: 15px;
+            color: #ffffff;
+            margin-bottom: 50px;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}
+
+/* duplicate code of card */
+
+.fifth-page{
+    margin-top: 120px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    P{
+        position: relative;
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 60px;
+        font-weight: 600;
+        padding-top: 50px;
+    }
+    img{
+        width: 100%;
+        position: absolute;
+    }
+    a{
+        position: inherit;
+        color: white;
+        
+        p{
+            font-size: 20px;
+        }
+    }
+}
+
+.project-card2{
+    margin-right: 50px;
+    margin-top: 30px;
+    position: relative;
+    height: 500px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-color: #ffffff;
+    margin-left: 100px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.project-cars2{
+    position: relative;
+    width: 450px;
+    height: 500px;
+    overflow: scroll;
+    img{
+        margin-top: 20px;
+        position: inherit;
+        width: 480px;
+        display: wrap;
+        margin: 10px;
+    }
+}
+.about-project2{
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    flex-direction: column;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    b{
+        color: rgb(255, 255, 255);
+        text-decoration:underline;
+        font-style: oblique;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    p{
+        margin-top: -30px;
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.576);
+    }
+    button{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 300px;
+        border-style: solid;
+        border-color: white;
+        background-color: transparent;
+        p{
+            font-size: 15px;
+            color: #ffffff;
+            margin-bottom: 50px;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}
+
+/* duplicate code od card */
+
+.sixth-page{
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    P{
+        position: relative;
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 60px;
+        font-weight: 600;
+        padding-top: 50px;
+    }
+    img{
+        width: 100%;
+        position: absolute;
+    }
+    a{
+        position: inherit;
+        color: white;
+        
+        p{
+            font-size: 20px;
+        }
+    }
+}
+.project-card3{
+    margin-top: 30px;
+    position: relative;
+    height: 500px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-color: #ffffff;
+    margin-left: 100px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.project-cars3{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: scroll;
+    img{
+        margin-top: 20px;
+        position: inherit;
+        width: 480px;
+        display: wrap;
+        margin: 10px;
+    }
+}
+.about-project3{
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    flex-direction: column;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    b{
+        color: rgb(255, 255, 255);
+        text-decoration:underline;
+        font-style: oblique;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    p{
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.576);
+    }
+    button{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 300px;
+        border-style: solid;
+        border-color: white;
+        background-color: transparent;
+        p{
+            font-size: 15px;
+            color: #ffffff;
+            margin-bottom: 50px;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}
