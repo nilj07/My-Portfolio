@@ -4,24 +4,25 @@
     
     
 }
+                    /* page 1 */
 .index{
     justify-content: center;
     display: flex;
     margin-bottom: 100px;
     img{
-        width: 100%;
-        
+        max-width: 100%;
+        height: auto;
         position: absolute;
     }
     nav{
         
-        margin-top: 20px;
+        margin-top: 3.6vh;
         position: relative;
         display: flex;
-        height: 70px;
+        height: 12.7vh;
         width: 80%;
         border-style: solid;
-        border-width: 1px;
+        border-width: 0.18vh;
         border-top: none;
         border-right: none;
         border-left: none;
@@ -38,8 +39,8 @@
 
         }
         button{
-            height: 60px;
-            width: 160px;
+            height: 50px;
+            width: 200px;
             border-style: none;
             background-color:#311758;
             border-radius: 45px;
@@ -93,16 +94,74 @@
 .right-sec{
     width: 50%;
     color: white;
+    display: flex;
+    align-items: center;
+    img{
+        border-radius: 50%;
+        height: 400px;
+    }
     
 }
+
+@media (max-width:414px) {
+    .index{
+        nav{
+            font-size: 0px;
+            height: 0px;
+            display: none;
+        }
+        button{
+            height: 0px;
+        }
+    }
+    .left-sec{
+        display: flex;
+        justify-content:center;
+        width: 50%;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-left: 10px;
+        justify-content: flex-start;
+        align-items: center;
+        span{
+            font-size: 20px;
+        }
+        p{
+            font-size: 8px;
+            padding-left: 0px;
+            width: 100px;
+            margin-right: 0px;
+        }
+        #decsription{
+            font-size: 8px;
+            margin-top: 0px;
+            margin-right: 0px;
+        }
+    }
+    .right-sec{
+        justify-content: flex-start;
+        align-items: center;
+        img{
+            height: 120px;
+            
+        }
+    }
+    .main{
+        
+    }
+}
+
+
+    /* second page */
 .second-page{
-    width: 100%;
+
     display: flex;
-    margin-top: 120px;
+    margin-top: 150px;
     img{
         overflow: hidden;
-        width: 100%;
-        height: 120vh;
+        max-width: 100%;
+        height: auto;
         position: absolute;
         
     }
@@ -114,8 +173,8 @@
         margin-top: 250px;
         margin-left: 200px;
         position: relative;
-        height: 400px;
-        width: auto;
+        height:max-content;
+        width: 350px;
         border-radius: 50%;
         border-style: solid;
         border-color: #ffffff;
@@ -126,14 +185,14 @@
         font-size: 60px;
         font-weight: 600;
         color: white;
-        margin-top: 250px;
+        margin-top: 100px;
         margin-left: 100px;
-        margin-top: 400px;
+        margin-top: 100px;
     }
 
     #aboutmy{
         width: 300px;
-        margin-top: 500px;
+        margin-top: 200px;
         color: white;
         font-size: 15px;
         font-weight: 300;
@@ -146,9 +205,48 @@
         margin-left: -290px;
     }
 }
+@media (max-width:414px) {
+    .second-page{
+        margin-top: 5px;
+        margin-bottom: 70px;
+    }
+    .about{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        padding-top: 30px;
+        padding-left: 10px;
+        img{
+            width: 100px;
+            margin-top: 0px;
+            margin-left: 0px;
+            
+        }
+        p{
+            display: flex;
+            margin-top: 0px;
+            margin-left: 10px;
+            margin-top: 10px;
+            font-size: 10px;
+        }
+        #aboutmy{
+            
+            margin-left: 10px;
+            margin-top: 0px;
+            padding-left: 4px;
+            margin-left: 10px;
+            font-size: 8px;
+            width: 200px;
+        }
+    }
+}
+
+                /* third page */
 .third-page{
+    margin-top: 60px;
     img{
-    width: 100%;
+        max-width: 100%;
+        height: auto;
     position: absolute;
         margin-top: 30px;
     }
@@ -184,8 +282,33 @@
     cursor: pointer;
 }
 
+@media (max-width: 414px) {
+    .third-page{
+        margin-top: -30px;
+        margin-bottom: 10px;
+        p{
+            font-size: 13px;
+        }
+    }
+    .skills{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 10px;
+        justify-content: center;
+        img{
+            height: 50px;
+            margin-left: 0px;
+            border-radius: 10px;
+            border-width: 2px;
+            box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.19);
+        }
+    }
+}
+
+
+                            /* forth page */
 .fourth-page{
-    margin-top: 1px;
+    margin-top: 95px;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
@@ -199,7 +322,8 @@
         padding-top: 50px;
     }
     img{
-        width: 100%;
+        max-width: 100%;
+        height: auto;
         position: absolute;
     }
     a{
@@ -240,8 +364,8 @@
 }
 .about-project{
     padding: 20px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
     flex-direction: column;
     width: 400px;
     display: flex;
@@ -278,6 +402,72 @@
     }
 }
 
+@media (max-width: 414px) {
+    .fourth-page{
+        margin-top: 35px;
+        p{
+            font-size: 13px;
+            
+        }
+        img{
+            height: 500px;
+        }
+    }
+    .project-card{
+        width: 350px;
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: none;
+    }
+    .project-cars{
+        height: 200px;
+        margin-left:30px;
+        display: flex;
+        flex-direction: row;
+        width: 380px;
+        overflow: scroll;
+        img{
+            width: 300px;
+            height: auto;
+            
+        }
+    }
+    .about-project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        b{
+            font-size: 15px;
+        }
+        p{
+            padding: 10px;
+            font-family: poppins;
+            color: rgba(255, 255, 255, 0.749);
+            margin-top: 0px;
+            width: 300px;
+            font-size: 10px;
+            
+        }
+        a{
+            margin-top: 20px;
+            button{
+                border-radius: 10px;
+                border-width: 1px;
+                height: 50px;
+                width: 150px;
+                margin-top: 0px;
+                p{
+                    font-size: 10px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
+
 /* duplicate code of card */
 
 .fifth-page{
@@ -295,7 +485,8 @@
         padding-top: 50px;
     }
     img{
-        width: 100%;
+        max-width: 100%;
+        height: auto;
         position: absolute;
     }
     a{
@@ -376,6 +567,73 @@
         }
     }
 }
+@media (max-width: 414px) {
+    .fifth-page{
+        margin-top: -60px;
+        p{
+            font-size: 13px;
+            
+        }
+        img{
+            height: 500px;
+        }
+    }
+    .project-card2{
+        width: 350px;
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: none;
+    }
+    .project-cars2{
+        height: 200px;
+        margin-left:30px;
+        display: flex;
+        flex-direction: row;
+        width: 380px;
+        overflow: scroll;
+        img{
+            width: 300px;
+            height: auto;
+            
+        }
+    }
+    .about-project2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+        padding: 0px;
+        b{
+            font-size: 15px;
+        }
+        p{
+            padding: 10px;
+            font-family: poppins;
+            color: rgba(255, 255, 255, 0.749);
+            margin-top: 0px;
+            width: 300px;
+            font-size: 10px;
+            
+        }
+        a{
+            margin-top: 20px;
+            button{
+                border-radius: 10px;
+                border-width: 1px;
+                height: 50px;
+                width: 150px;
+                margin-top: 0px;
+                p{
+                    font-size: 10px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
 
 /* duplicate code od card */
 
@@ -394,7 +652,8 @@
         padding-top: 50px;
     }
     img{
-        width: 100%;
+        max-width: 100%;
+        height: auto;
         position: absolute;
     }
     a{
@@ -470,5 +729,225 @@
             text-decoration: underline;
             cursor: pointer;
         }
+    }
+}
+@media (max-width: 414px) {
+    .sixth-page{
+        margin-top: 5px;
+        p{
+            font-size: 13px;
+            
+        }
+        img{
+            height: 500px;
+        }
+    }
+    .project-card3{
+        justify-content: center;
+        width: 350px;
+        margin-left: 0px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: none;
+    }
+    .project-cars3{
+        height: 200px;
+        margin-left:30px;
+        display: flex;
+        flex-direction: row;
+        width: 380px;
+        overflow: scroll;
+        img{
+            width: 300px;
+            height: auto;
+            
+        }
+    }
+    .about-project3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+        padding: 0px;
+        b{
+            font-size: 15px;
+        }
+        p{
+            padding: 10px;
+            font-family: poppins;
+            color: rgba(255, 255, 255, 0.749);
+            margin-top: 0px;
+            width: 300px;
+            font-size: 10px;
+            
+        }
+        a{
+            margin-top: 20px;
+            button{
+                border-radius: 10px;
+                border-width: 1px;
+                height: 50px;
+                width: 150px;
+                margin-top: 0px;
+                p{
+                    font-size: 10px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
+
+/* seventh page  */
+
+.seventh-page{
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    P{
+        position: relative;
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 60px;
+        font-weight: 600;
+        padding-top: 50px;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+        position: absolute;
+    }
+    a{
+        position: inherit;
+        color: white;
+        
+        p{
+            font-size: 20px;
+        }
+    }
+}
+.project-card4{
+    margin-top: 30px;
+    position: relative;
+    height: 500px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-color: #ffffff;
+    margin-left: 100px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.project-cars4{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: scroll;
+    img{
+        margin-top: 20px;
+        position: inherit;
+        width: 480px;
+        display: wrap;
+        margin: 10px;
+    }
+}
+.about-project3{
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    flex-direction: column;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    b{
+        color: rgb(255, 255, 255);
+        text-decoration:underline;
+        font-style: oblique;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    p{
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.576);
+    }
+    button{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 300px;
+        border-style: solid;
+        border-color: white;
+        background-color: transparent;
+        p{
+            font-size: 15px;
+            color: #ffffff;
+            margin-bottom: 50px;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}
+@media (max-width: 414px) {
+    .seventh-page{
+        margin-top: -15px;
+        p{
+            font-size: 13px;
+            
+        }
+        img{
+            height: 500px;
+        }
+    }
+    .project-card4{
+        justify-content: center;
+        width: 350px;
+        margin-left: 0px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: none;
+    }
+    .project-cars4{
+        height: 200px;
+        margin-left:30px;
+        display: flex;
+        flex-direction: row;
+        width: 380px;
+        overflow: scroll;
+        img{
+            width: 300px;
+            height: auto;
+            
+        }
+    }
+    .about-project3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+        padding: 0px;
+        b{
+            font-size: 15px;
+        }
+        p{
+            padding: 10px;
+            font-family: poppins;
+            color: rgba(255, 255, 255, 0.749);
+            margin-top: 0px;
+            width: 300px;
+            font-size: 10px;
+            
+        }
+
     }
 }
